@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500&family=Bebas+Neue&family=Chivo+Mono:wght@300&family=Heebo:wght@500&family=Oswald:wght@300&family=Roboto:wght@300&family=Rubik:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <script src="index.js"></script>
+    <title>Form Validation</title>
+  </head>
+  <body>
+    <center><h1>Validating Web Forms</h1></center>
+    <div class="form">
+      <div class="maincontainer">
+        <form  name="f1" action="#" onsubmit="return validate()">
+          <div class="format">
+        <label for="First">First Name</label><br>
+        <input type="text" name="fName" id="fName" /><br>
+        <span style="color:red" id="error1"></span>
+      </div>
+      <div class="format">
+        <label for="Last">Last Name</label><br>
+        <input type="text" name="lName" id="lName" /><br>
+        <span style="color:red" id="error2"></span>
+      </div>
+      <div class="format">
+        <label for="eamil">Email</label><br>
+        <input type="email" name="email" id="email" /><br>
+        <span style="color:red" id="error3"></span>
+      </div>
+      <div class="format">
+        <label for="Password">Password</label><br>
+        <input type="password" name="password" id="password" /><br>
+        <span style="color:red" id="error4"></span>
+      </div>
+      <div class="format">
+        <label for="Telephone">Telephone</label><br>
+        <input type="number" name="number" id="number" /><br>
+        <span style="color:red" id="error5"></span>
+      </div>
+      <div class="format">
+      <label for="Bio">Your Bio</label><br>
+      <input type="text" name="yourBio" id="yourBio" /><br>
+      <span style="color:red" id="error6"></span>
+    </div>
+        <button type="submit" style="height: 40px;width: 100px;color: white;background-color: black;border-radius: 5px;"> Submit <button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

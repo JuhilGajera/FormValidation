@@ -1,0 +1,42 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-family: "Bebas Neue", cursive;
+  font-family: "Chivo Mono", monospace;
+  font-family: "Heebo", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 40px;
+}
+.maincontainer{
+    height: 700px;
+    width: 40%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    font-size: large;
+    padding-left: 70px;
+    padding-top: 80px;
+    
+}
+.maincontainer input{
+  width: 400px;
+  height: 30px;
+  
+}
+.maincontainer label{
+  padding-top: 50px;
+}
+.format{
+  margin-bottom: 20px;
+}
